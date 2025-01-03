@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "Travel-Planner/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "Travel-Planner/build"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "Travel-Planner/build/$1"
+      }
+    ]
+  }
+  
