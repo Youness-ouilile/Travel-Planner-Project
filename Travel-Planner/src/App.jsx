@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'; 
-import About from './pages/About';
-import Contact from './pages/Contact';
-import SignIn from './pages/Sign-In';
-import Home from './pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import SignIn from './Pages/Sign-In';
+import Home from './Pages/Home';
 import NavItem from './NavItem'; 
 import Search from './Pages/Search';
 
